@@ -77,12 +77,12 @@ const Navbar = () => {
                 </li>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-400'>
                     <a className='flex justify-between items-center w-full text text-gray-50'
-                        href="http://https://x.com/S0liddreams">Twitter <FaTwitter size={30} />
+                        href="https://x.com/S0liddreams">Twitter <FaTwitter size={30} />
                     </a>
                 </li>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gray-500'>
                     <a className='flex justify-between items-center w-full text text-gray-50'
-                        href="http://https://github.com/S0liddreams">Github <FaGithub size={30} />
+                        href="https://github.com/S0liddreams">Github <FaGithub size={30} />
                     </a>
                 </li>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-green-400'>
