@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@layer base {
+    body {
+        @apply font-[Raleway];
+    }
+    
+    li {
+        @apply px-4;
+        @apply cursor-pointer
+    }
+
+}
+.content-div{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    flex-direction: column;
+    
+    
+
+}
+.content-div:hover {
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.6), 
+        rgb(245, 146, 17)
+    )!important;
+
+
+
+}
